@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./public/css/output.css">
     <link rel="stylesheet" href="./public/css/stayle.css">
 </head>
-<body>
+<body class="bg-[#fbeeed]">
 <header class="navbar">
 
     <!-- logo -->
@@ -67,11 +67,14 @@
         <input type="checkbox" id="menu">
 
         <label for="menu" class="menu-icon">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-baseline-density-medium">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 20h16" />
+                <path d="M4 12h16" />
+                <path d="M4 4h16" />
+            </svg></span>
         </label>
 
 
@@ -86,9 +89,9 @@
 
             <hr>
 
-            <a href="./login.html">Se connecter</a>
+            <a href="">Se connecter</a>
 
-            <a href="./signup.html" class="mobile-signup">
+            <a href="" class="mobile-signup">
                 S'inscrire
             </a>
 
@@ -97,6 +100,39 @@
     </div>
 
 </header>
+<main>
+      <!-- hero section -->
+       <section class="flex flex-col md:flex-row items-center justify-between gap-6 px-6 md:px-[5%] py-10">
+             
+        <div  class="w-full md:w-[48%] text-center md:text-left ">
+                <h1 class="text-3xl md:text font-extrabold leading-tight  text-[#382044]">
+                    Vous avez des droits.
+                    <span class="block text-[#f36b2c]">
+                        Vous méritez d'être entendu(e).
+                    </span>
+                </h1>
+                <p class="mt-5 mb-6 text-[15px]  md:text-base leading-relaxed text-[#21152a]">
+                    <strong>BRISER LE SILENCE</strong> est une plateforme pour comprendre
+                    vos droits, trouver de l'aide et dire stop aux violences
+                    basées sur le genre.
+                </p>
+             
+               </div>
+           
+
+
+                  <div class="relative  md:-w-[50%] h-[300px] md:h-[430px]">
+                    <img src="./public/images/istockphoto-2193289409-612x612.jpg" class="w-full h-full object-contain  rounded-[20px] " alt="">
+                  
+                  <p class="w-[100px] absolute right-0  top-[25%] mr-6 -rotate-6 text-center text-lg md:text-2xl font-bold italic text-black ">
+                    Ensemble
+                    pour une société
+                    plus juste
+                  </p>
+                </div>
+       </section>
+
+</main>
   
 </body>
 </html>
