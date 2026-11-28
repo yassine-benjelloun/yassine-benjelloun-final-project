@@ -9,17 +9,13 @@ Violet : #6B3FA0 – Couleur principale.
  Noir : #222222 – Textes et titres.
 
 
-
-   The Navbar and Footer were reused from a previous project.
-  
-<!-- transition duration-300 hover:-translate-y-2 hover:shadow-lg  -->
-
-
-
 Page 1 – Home Page (Accueil)
 Page 2 – Mes droits fondamentaux
-Page 3 – Formulaire
+Page 3 – Formulaire de l aide
 Page 3 _Solution
+
+
+The Navbar and Footer were reused from a previous project.
 
 
 
